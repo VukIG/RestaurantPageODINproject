@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+}
+
+nav img{
+    margin: 30px;
+    width: 20vh;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    transition: .4s;
+}
+
+nav ul li a:hover{
+   color: white;
+   background-color: black; 
+}
+
+.slobodailismrt {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
+} 
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article img{
+    width: 80%;
+}
+
+article p,h1{
+    margin: 30px;
+    max-width: 80%;
+}
+
+article button{
+    text-decoration: none;
+    
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    transition: .4s;
+    font-size: 15px;
+    color: white;
+    background-color: black; 
+}
+
+article button:hover{
+    background-color: transparent;
+    color: black;
+}
+
+.mainHeading{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
